@@ -10,22 +10,24 @@
 						</a>
 					</li>
 				{{/if}}
-				<li class='c-social-nav__item'>
-					<a href='https://instagram.com/thomcrowe' target='_blank'>
-						<span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
-					</a>
-				</li>
-				{{# if global.blog.facebook}}
+				{{# if global.blog.instagram}}
 					<li class='c-social-nav__item'>
-						<a href='https://facebook.com/{{ global.blog.facebook}}' target='_blank'>
-							<span class='c-social-nav__icon' data-icon='ei-sc-facebook' data-size='s'></span>
+						<a href='https://instagram.com/{{ global.blog.instagram}}' target='_blank'>
+							<span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
 						</a>
 					</li>
+				{{/if}}
+				{{# if global.blog.facebook}}
+					<li class='c-social-nav__item'>
+					<a href='https://facebook.com/{{ global.blog.facebook}}' target='_blank'>
+					<span class='c-social-nav__icon' data-icon='ei-sc-facebook' data-size='s'></span>
+				</a>
+				</li>
 				{{/if}}
 			</ul>
 
 			<div class='u-text-center'>
-				<span class='u-font-small u-font-sans-serif'>&copy; {{ global.blog.date }} {{ global.blog.title }} & Rosa Jiménez <br> See something you'd like to share or republish? Just ask.</span>
+				<span class='u-font-small u-font-sans-serif'>&copy; {{ global.blog.date }} {{ global.blog.title }}<br> See something you'd like to share or republish? Just ask.</span>
 			</div>
 
 		</div>
