@@ -1,8 +1,7 @@
 {
 	blog: {
-		logo: '',
-		url: '',
-		title: '',
+		url: '/',
+		title: 'RosaJP',
 		description: '',
 		twitter: 'rosajp',
 		date: new Date().getFullYear()
