@@ -8,6 +8,8 @@
 		logo: '',
 		url: '',
 		title: '',
-		description: ''
+		description: '',
+		twitter: 'rosajp',
+		date: new Date().getFullYear()
 	}
 }
